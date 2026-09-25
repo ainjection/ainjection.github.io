@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /gentle-bookshop/v3/
+Disallow: /gentle-bookshop/classic.html
+
+Sitemap: https://ainjection.github.io/sitemap.xml
