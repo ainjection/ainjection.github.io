@@ -1,41 +1,190 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="p:domain_verify" content="e0138f0423ca6eee0eade1334429e3a3"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>AI Injection — Rob's corner of the internet</title>
-  <meta name="description" content="AI automation, video pipelines and gentle books — everything Rob builds, in one place.">
-  <style>
-    *{box-sizing:border-box;margin:0}
-    body{font-family:Georgia,serif;background:radial-gradient(120% 100% at 50% 0%,#15181f 0%,#0a0c11 70%);
-      color:#f5f2ea;min-height:100vh;display:flex;align-items:center;justify-content:center;padding:40px 20px}
-    .wrap{max-width:640px;text-align:center}
-    h1{font-size:44px;letter-spacing:.04em}
-    .sub{font-family:Arial,sans-serif;font-size:13px;letter-spacing:.28em;text-transform:uppercase;color:#c9a24b;margin:14px 0 44px}
-    a.card{display:block;background:rgba(255,255,255,.04);border:1px solid rgba(201,162,75,.35);border-left:3px solid #c9a24b;
-      padding:22px 28px;margin:14px 0;text-decoration:none;color:#f5f2ea;text-align:left;transition:background .2s}
-    a.card:hover{background:rgba(201,162,75,.12)}
-    a.card b{font-size:20px}
-    a.card span{display:block;font-family:Arial,sans-serif;font-size:13px;color:#8b93a3;margin-top:6px}
-    .foot{font-family:Arial,sans-serif;font-size:12px;color:#5a6272;margin-top:44px}
-  </style>
+<meta charset="utf-8">
+<meta name="p:domain_verify" content="e0138f0423ca6eee0eade1334429e3a3"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Gentle Bookshop: books for curious kids and cosy grown-ups</title>
+<meta name="description" content="Colouring books, children's stories, handwriting workbooks and seasonal shelves for Halloween and Christmas. Print sample pages at home, then find every book on Amazon.">
+<meta property="og:title" content="The Gentle Bookshop">
+<meta property="og:description" content="Colouring books, children's stories and calm workbooks, plus a Halloween shelf and a Christmas shelf.">
+<meta property="og:image" content="https://ainjection.github.io/halloween-books/covers/halloween-bold-easy.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=Nunito:wght@400;700;800;900&family=Caveat:wght@600&display=swap" rel="stylesheet">
+<style>
+:root{--teal:#105c64;--teal-d:#0b454c;--cream:#fcf7ec;--paper:#fffdf8;--ink:#21302e;--orange:#f08c34;--yellow:#fac846;--muted:#5f7472;
+  --display:"Fraunces",Georgia,serif;--body:"Nunito","Segoe UI",system-ui,sans-serif}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:var(--body);background:var(--cream);color:var(--ink);line-height:1.55;overflow-x:hidden}
+a{color:inherit}
+.wrap{max-width:1120px;margin:0 auto;padding:0 16px}
+@media(min-width:700px){.wrap{padding:0 32px}}
+
+/* hero */
+.hero{position:relative;padding:56px 0 40px;text-align:center;overflow:hidden}
+.hero::before{content:"";position:absolute;inset:-40% -10% auto;height:120%;background:radial-gradient(closest-side,rgba(250,200,70,.35),transparent 70%);pointer-events:none}
+.brand{display:inline-flex;align-items:center;gap:10px;font-family:var(--display);font-weight:800;font-size:1.15rem;color:var(--teal);text-decoration:none}
+.brand img{width:40px;height:40px;border-radius:50%}
+.hero h1{position:relative;font-family:var(--display);font-weight:800;font-size:clamp(2.2rem,6vw,4rem);line-height:1.05;margin:26px auto 16px;max-width:15ch;color:var(--ink)}
+.hero h1 em{font-style:normal;color:var(--teal)}
+.hero p{position:relative;font-size:1.12rem;color:var(--muted);max-width:40rem;margin:0 auto}
+.scribble{font-family:"Caveat",cursive;font-size:1.5rem;color:var(--orange);display:block;margin-top:14px;transform:rotate(-2deg)}
+
+/* doors */
+.doors{display:grid;gap:22px;margin:26px 0 60px}
+@media(min-width:900px){.doors{grid-template-columns:1.25fr 1fr 1fr}}
+.door{position:relative;display:flex;flex-direction:column;border-radius:22px;padding:26px 24px 24px;text-decoration:none;overflow:hidden;min-height:430px;
+  box-shadow:0 14px 34px rgba(33,48,46,.14);transition:transform .35s cubic-bezier(.2,.8,.2,1),box-shadow .35s}
+.door:hover,.door:focus-visible{transform:translateY(-6px);box-shadow:0 26px 50px rgba(33,48,46,.22)}
+.door:focus-visible{outline:3px solid var(--orange);outline-offset:3px}
+.door .kick{font-weight:900;font-size:.78rem;letter-spacing:.16em;text-transform:uppercase}
+.door h2{font-family:var(--display);font-weight:800;font-size:1.9rem;line-height:1.1;margin:8px 0 8px}
+.door p{font-size:1rem;opacity:.9}
+.door .go{margin-top:auto;align-self:flex-start;font-weight:900;padding:11px 20px;border-radius:999px;transition:transform .2s}
+.door:hover .go{transform:translateX(4px)}
+.fan{position:relative;height:190px;margin:22px 0 22px}
+.fan img{position:absolute;left:50%;bottom:0;height:172px;width:auto;border-radius:6px;box-shadow:0 10px 22px rgba(0,0,0,.28);
+  transform-origin:50% 120%;transition:transform .45s cubic-bezier(.2,.8,.2,1);background:#fff}
+.fan img:nth-child(1){transform:translateX(-50%) rotate(-14deg) translateX(-62px)}
+.fan img:nth-child(2){transform:translateX(-50%) rotate(0) translateY(-8px);z-index:2}
+.fan img:nth-child(3){transform:translateX(-50%) rotate(14deg) translateX(62px)}
+.door:hover .fan img:nth-child(1){transform:translateX(-50%) rotate(-20deg) translateX(-86px)}
+.door:hover .fan img:nth-child(2){transform:translateX(-50%) rotate(0) translateY(-20px) scale(1.04)}
+.door:hover .fan img:nth-child(3){transform:translateX(-50%) rotate(20deg) translateX(86px)}
+
+.d-shop{background:var(--paper);border:2px solid #efe4cc;color:var(--ink)}
+.d-shop .kick{color:var(--teal)} .d-shop .go{background:var(--teal);color:#fff}
+.d-hal{background:radial-gradient(120% 90% at 80% 0%,#4b2270 0%,#1d0f33 60%,#130a24 100%);color:#f3eaff}
+.d-hal .kick{color:#ff9b3d} .d-hal .go{background:#ff7a1a;color:#1d0f33}
+.d-xmas{background:radial-gradient(120% 90% at 20% 0%,#1f6a4a 0%,#0f3b2a 60%,#0a2a1e 100%);color:#fff6ea}
+.d-xmas .kick{color:#ffd66b} .d-xmas .go{background:#e0474c;color:#fff}
+.count{display:inline-block;margin-top:6px;font-weight:800;font-size:.9rem;padding:4px 10px;border-radius:999px;background:rgba(255,255,255,.12)}
+.sky{position:absolute;inset:0;pointer-events:none;overflow:hidden}
+.sky i{position:absolute;width:3px;height:3px;border-radius:50%;background:#fff;opacity:.6;animation:tw 3s ease-in-out infinite}
+@keyframes tw{50%{opacity:.1}}
+.snow i{width:5px;height:5px;animation:fall linear infinite;top:-10px}
+@keyframes fall{to{transform:translateY(470px) translateX(20px)}}
+
+/* favourites */
+.section-h{font-family:var(--display);font-weight:800;font-size:clamp(1.6rem,3.6vw,2.3rem);text-align:center}
+.section-p{text-align:center;color:var(--muted);margin:6px auto 26px;max-width:36rem}
+.favs{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;margin-bottom:64px}
+@media(min-width:760px){.favs{grid-template-columns:repeat(6,1fr)}}
+.fav{text-decoration:none;display:flex;flex-direction:column;gap:8px}
+.fav img{width:100%;aspect-ratio:3/4;object-fit:contain;object-position:50% 100%;filter:drop-shadow(0 8px 12px rgba(33,48,46,.22));transition:transform .3s}
+.fav:hover img{transform:translateY(-4px) rotate(-1.5deg)}
+.fav b{font-size:.95rem;line-height:1.25}
+.fav span{font-size:.82rem;color:var(--teal);font-weight:800}
+
+/* promise strip */
+.promise{display:grid;gap:14px;margin:0 0 64px}
+@media(min-width:760px){.promise{grid-template-columns:repeat(3,1fr)}}
+.promise div{background:var(--paper);border:2px solid #efe4cc;border-radius:16px;padding:18px 20px}
+.promise b{display:block;font-family:var(--display);font-size:1.15rem;margin-bottom:4px;color:var(--teal)}
+
+footer{border-top:2px solid #efe4cc;padding:26px 0 40px;text-align:center;color:var(--muted);font-size:.92rem}
+footer nav{display:flex;flex-wrap:wrap;justify-content:center;gap:8px 18px;margin-bottom:10px}
+footer a{color:var(--muted);text-decoration:underline;text-underline-offset:3px}
+@media (prefers-reduced-motion: reduce){*{animation:none!important;transition:none!important}}
+</style>
 </head>
 <body>
+
+<header class="hero">
   <div class="wrap">
-    <h1>AI INJECTION</h1>
-    <div class="sub">automation &middot; video &middot; publishing</div>
-    <a class="card" href="https://ainjection.github.io/agency/"><b>The Agency</b>
-      <span>AI video, content pipelines and automation builds — hire the studio</span></a>
-    <a class="card" href="https://ainjection.github.io/gentle-bookshop/"><b>The Gentle Bookshop</b>
-      <span>Colouring books, children's stories and calm workbooks — all on Amazon</span></a>
-    <a class="card" href="https://ainjection.github.io/ai-video-portfolio/"><b>AI Video Portfolio</b>
-      <span>Spec films, campaigns and pipelines — what one person and AI can produce</span></a>
-    <a class="card" href="https://www.youtube.com/@AIInjection"><b>YouTube — AI Injection</b>
-      <span>Tutorials on the systems behind all of it</span></a>
-    <a class="card" href="https://www.skool.com/ai-injection-4241/about"><b>The Community</b>
-      <span>Skool group — the full workflows, skills and packs</span></a>
-    <div class="foot">&copy; 2026 AI Injection</div>
+    <a class="brand" href="https://ainjection.github.io/gentle-bookshop/" data-door="shop"><img src="https://ainjection.github.io/gentle-bookshop/assets/logo.png" alt="">The Gentle Bookshop</a>
+    <h1>Books that make <em>quiet time</em> the best time.</h1>
+    <p>Colouring books with thick, friendly lines. Stories for bedtime. Workbooks that help little hands and busy minds. Every book has sample pages you can print at home first.</p>
+    <span class="scribble">pick a door...</span>
   </div>
+</header>
+
+<main class="wrap">
+  <section class="doors" aria-label="Our three shelves">
+    <a class="door d-shop" href="https://ainjection.github.io/gentle-bookshop/" data-door="shop">
+      <span class="kick">The whole bookshop</span>
+      <h2>Nearly 50 gentle books</h2>
+      <p>Bold and easy colouring, bedtime stories, handwriting help, brain games and gifts for grandparents.</p>
+      <div class="fan" aria-hidden="true">
+        <img src="https://ainjection.github.io/gentle-bookshop/assets/capybara.jpg" alt="" loading="lazy">
+        <img src="https://ainjection.github.io/gentle-bookshop/assets/goodnight-capybara.jpg" alt="" loading="lazy">
+        <img src="https://ainjection.github.io/gentle-bookshop/assets/dysgraphia-teens.jpg" alt="" loading="lazy">
+      </div>
+      <span class="go">Browse every book &rarr;</span>
+    </a>
+
+    <a class="door d-hal" href="https://ainjection.github.io/halloween-books/" data-door="halloween">
+      <div class="sky" id="stars" aria-hidden="true"></div>
+      <span class="kick">The Halloween Shelf</span>
+      <h2>Spooky, but friendly</h2>
+      <p>Seek and find, mystery mosaics, big-print word searches and a brand new bold and easy book.</p>
+      <span class="count" id="hcount"></span>
+      <div class="fan" aria-hidden="true">
+        <img src="https://ainjection.github.io/halloween-books/covers/halloween-seek-and-find.jpg" alt="" loading="lazy">
+        <img src="https://ainjection.github.io/halloween-books/covers/halloween-bold-easy.jpg" alt="" loading="lazy">
+        <img src="https://ainjection.github.io/halloween-books/covers/halloween-grayscale-complete.jpg" alt="" loading="lazy">
+      </div>
+      <span class="go">Enter if you dare &rarr;</span>
+    </a>
+
+    <a class="door d-xmas" href="https://ainjection.github.io/christmas-books/" data-door="christmas">
+      <div class="sky snow" id="snow" aria-hidden="true"></div>
+      <span class="kick">The Christmas Shelf</span>
+      <h2>Cosy Christmas colouring</h2>
+      <p>Festive seek and find for kids and detailed grayscale pages for grown-ups, ready for stockings.</p>
+      <span class="count" id="xcount"></span>
+      <div class="fan" aria-hidden="true">
+        <img src="https://ainjection.github.io/christmas-books/covers/christmas-grayscale-vol1.jpg" alt="" loading="lazy">
+        <img src="https://ainjection.github.io/christmas-books/covers/christmas-seek-and-find.jpg" alt="" loading="lazy">
+        <img src="https://ainjection.github.io/christmas-books/covers/christmas-grayscale-vol2.jpg" alt="" loading="lazy">
+      </div>
+      <span class="go">Open the shelf &rarr;</span>
+    </a>
+  </section>
+
+  <h2 class="section-h">Readers' favourites</h2>
+  <p class="section-p">A good place to start. Each one opens on Amazon.</p>
+  <section class="favs" aria-label="Favourite books">
+    <a class="fav" href="https://www.amazon.com/dp/B0HGVDWKP4" target="_blank" rel="noopener"><img src="https://ainjection.github.io/gentle-bookshop/assets/halloween-grayscale-complete.jpg" alt="Halloween Grayscale Complete Collection cover" loading="lazy"><b>Halloween Grayscale: Complete</b><span>Grown-up colourists</span></a>
+    <a class="fav" href="https://www.amazon.com/dp/B0H7D6LNHF" target="_blank" rel="noopener"><img src="https://ainjection.github.io/gentle-bookshop/assets/dysgraphia-teens.jpg" alt="Dysgraphia Workbook for Teens cover" loading="lazy"><b>Dysgraphia Workbook: Teens</b><span>Handwriting help</span></a>
+    <a class="fav" href="https://www.amazon.com/dp/B0H4C8BW8Z" target="_blank" rel="noopener"><img src="https://ainjection.github.io/gentle-bookshop/assets/capybara.jpg" alt="Capybara Bold and Easy cover" loading="lazy"><b>Capybara Bold &amp; Easy</b><span>Calm colouring</span></a>
+    <a class="fav" href="https://www.amazon.com/dp/B0H5711HFP" target="_blank" rel="noopener"><img src="https://ainjection.github.io/gentle-bookshop/assets/goodnight-capybara.jpg" alt="Goodnight, Little Capybara cover" loading="lazy"><b>Goodnight, Little Capybara</b><span>Bedtime story</span></a>
+    <a class="fav" href="https://www.amazon.com/dp/B0HKS8XR7X" target="_blank" rel="noopener"><img src="https://ainjection.github.io/gentle-bookshop/assets/sciatica-relief.jpg" alt="Sciatica Relief for Seniors cover" loading="lazy"><b>Sciatica Relief for Seniors</b><span>Care &amp; comfort</span></a>
+    <a class="fav" href="https://www.amazon.com/dp/B0HHY8LZFG" target="_blank" rel="noopener"><img src="https://ainjection.github.io/gentle-bookshop/assets/born-1960.jpg" alt="Born in 1960 cover" loading="lazy"><b>Born in 1960</b><span>Birthday gift</span></a>
+  </section>
+
+  <section class="promise" aria-label="Why our books">
+    <div><b>Try before you buy</b>Every book has sample pages you can print at home tonight.</div>
+    <div><b>One side only</b>Colouring pages are printed single-sided, so markers never bleed through.</div>
+    <div><b>Made for real people</b>Big lines for beginners and seniors, calm stories for bedtime, help for tricky handwriting.</div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <nav aria-label="Also by Rob">
+      <a href="https://ainjection.github.io/ai-video-portfolio/">AI video portfolio</a>
+      <a href="https://ainjection.github.io/agency/">The studio</a>
+      <a href="https://www.youtube.com/@AIInjection">YouTube</a>
+    </nav>
+    &copy; 2026 The Gentle Bookshop, an AI Injection project
+  </div>
+</footer>
+
+<script src="track.js" defer></script>
+<script>
+(() => {
+  const days = (m, d) => { const now = new Date(), t = new Date(now.getFullYear(), m, d); if (t < new Date(now.getFullYear(), now.getMonth(), now.getDate())) t.setFullYear(t.getFullYear() + 1); return Math.round((t - new Date(now.getFullYear(), now.getMonth(), now.getDate())) / 864e5); };
+  const h = days(9, 31), x = days(11, 25);
+  document.getElementById('hcount').textContent = h === 0 ? 'Happy Halloween!' : `${h} nights until Halloween`;
+  document.getElementById('xcount').textContent = x === 0 ? 'Merry Christmas!' : `${x} sleeps until Christmas`;
+  const fill = (el, n, snow) => { for (let i = 0; i < n; i++) { const s = document.createElement('i'); s.style.left = Math.random() * 100 + '%';
+    if (snow) s.style.animationDuration = 6 + Math.random() * 6 + 's', s.style.animationDelay = -Math.random() * 10 + 's';
+    else s.style.top = Math.random() * 55 + '%', s.style.animationDelay = -Math.random() * 3 + 's';
+    el.appendChild(s); } };
+  fill(document.getElementById('stars'), 40, false); fill(document.getElementById('snow'), 34, true);
+})();
+</script>
 </body>
 </html>
