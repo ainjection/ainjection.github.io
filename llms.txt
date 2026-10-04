@@ -1,0 +1,30 @@
+# The Gentle Bookshop
+
+> A small UK publisher of colouring books, puzzle books, children's non-fiction and poetry, all printed and shipped by Amazon. Sites on ainjection.github.io hold free printable sample pages, a pencil guide for grayscale colouring, and links to every book. Spooky, never scary.
+
+Books are sold on Amazon (amazon.com) under The Gentle Bookshop; poetry is published under the pen name Janice Kingsley. The sites themselves sell nothing: they let visitors print sample pages at home, then link to the book on Amazon. Amazon links carry an Associates tag.
+
+## Main pages
+
+- [The Gentle Bookshop](https://ainjection.github.io/gentle-bookshop/): every book, by shelf: little ones (colouring and bedtime stories), curious kids, handwriting and learning (dysgraphia workbooks), grown-up colouring and puzzles, golden years (gentle exercise, big-print puzzles, memory books), poetry.
+- [The Halloween Shelf](https://ainjection.github.io/halloween-books/): Halloween colouring and activity books: Bold and Easy monsters (ages 4+), Seek and Find (4 to 8), Mystery Mosaics colour-by-number (6 to 12), large-print Word Search (adults and seniors), Grayscale colouring for adults (Volume 1, Volume 2, Complete Collection) and Pocket Sudoku: Halloween Edition.
+- [Printable Halloween colouring pages](https://ainjection.github.io/halloween-books/halloween-coloring-pages-printable.html): five sample pages from every Halloween book, printable at home, letter or A4.
+- [Best pencils for grayscale coloring](https://ainjection.github.io/halloween-books/best-pencils-for-grayscale-coloring.html): why grayscale pages want soft, transparent pencils; soft wax (Prismacolor Premier) versus hard oil (Polychromos, Staedtler); what a colourless blender does; five things worth buying.
+- [The Christmas Shelf](https://ainjection.github.io/christmas-books/): Christmas Grayscale colouring (Volume 1, Volume 2, Complete), Christmas Seek and Find, Christmas Mystery Mosaics, with free printable pages.
+- [Curious Kids](https://ainjection.github.io/curious-kids/): The Big Book of Why for curious kids and little ones, The Big Book of What If, The Gross Book of Why, Bug Facts.
+- [Janice Kingsley poetry](https://ainjection.github.io/janice-kingsley/): Still Learning to Leave: Poems for a Broken Heart, and two further collections; the poems are free to read on Google Play Books and free as audiobooks on Google Play.
+
+## Quick answers
+
+- What is grayscale colouring? Colouring pages where the shading is already printed in grey. You lay colour on top and the printed shadows show through, so the picture looks three-dimensional with very little effort. It suits adults and older teens.
+- Which pencils for grayscale colouring? Soft, wax-based pencils (for example Prismacolor Premier) glide over the grey and blend; harder oil-based pencils (Faber-Castell Polychromos, Staedtler) keep a fine point for detail. A colourless blender pencil smooths the strokes so the page looks painted. Ordinary school pencils skate over the grey and look chalky.
+- Can I print the pages for free? Yes. Every book on the Halloween Shelf and Christmas Shelf has sample pages as PDFs that print on letter or A4 paper.
+- Who are the books for? Little ones from age 4 (bold and easy colouring, seek and find), kids 6 to 12 (mystery mosaics, Big Book of Why), adults (grayscale colouring, word search, poetry) and seniors (large print puzzles, chair tai chi, memory books).
+- Where do I buy? On Amazon; each book page on the sites links to its Amazon listing.
+
+## Optional
+
+- [Free Halloween colouring book](https://ainjection.github.io/halloween-books/free-halloween-coloring-book.html)
+- [Free Christmas colouring pages](https://ainjection.github.io/christmas-books/free-christmas-coloring-pages.html)
+- [YouTube: The Gentle Bookshop](https://www.youtube.com/@TheGentleBookshop)
+- [Full page list (sitemap)](https://ainjection.github.io/sitemap.xml)

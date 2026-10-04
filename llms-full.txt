@@ -1,0 +1,95 @@
+# The Gentle Bookshop
+
+> A small UK publisher of colouring books, puzzle books, children's non-fiction and poetry, all printed and shipped by Amazon. Sites on ainjection.github.io hold free printable sample pages, a pencil guide for grayscale colouring, and links to every book. Spooky, never scary.
+
+Books are sold on Amazon (amazon.com) under The Gentle Bookshop; poetry is published under the pen name Janice Kingsley. The sites themselves sell nothing: they let visitors print sample pages at home, then link to the book on Amazon. Amazon links carry an Associates tag.
+
+## Main pages
+
+- [The Gentle Bookshop](https://ainjection.github.io/gentle-bookshop/): every book, by shelf: little ones (colouring and bedtime stories), curious kids, handwriting and learning (dysgraphia workbooks), grown-up colouring and puzzles, golden years (gentle exercise, big-print puzzles, memory books), poetry.
+- [The Halloween Shelf](https://ainjection.github.io/halloween-books/): Halloween colouring and activity books: Bold and Easy monsters (ages 4+), Seek and Find (4 to 8), Mystery Mosaics colour-by-number (6 to 12), large-print Word Search (adults and seniors), Grayscale colouring for adults (Volume 1, Volume 2, Complete Collection) and Pocket Sudoku: Halloween Edition.
+- [Printable Halloween colouring pages](https://ainjection.github.io/halloween-books/halloween-coloring-pages-printable.html): five sample pages from every Halloween book, printable at home, letter or A4.
+- [Best pencils for grayscale coloring](https://ainjection.github.io/halloween-books/best-pencils-for-grayscale-coloring.html): why grayscale pages want soft, transparent pencils; soft wax (Prismacolor Premier) versus hard oil (Polychromos, Staedtler); what a colourless blender does; five things worth buying.
+- [The Christmas Shelf](https://ainjection.github.io/christmas-books/): Christmas Grayscale colouring (Volume 1, Volume 2, Complete), Christmas Seek and Find, Christmas Mystery Mosaics, with free printable pages.
+- [Curious Kids](https://ainjection.github.io/curious-kids/): The Big Book of Why for curious kids and little ones, The Big Book of What If, The Gross Book of Why, Bug Facts.
+- [Janice Kingsley poetry](https://ainjection.github.io/janice-kingsley/): Still Learning to Leave: Poems for a Broken Heart, and two further collections; the poems are free to read on Google Play Books and free as audiobooks on Google Play.
+
+## Quick answers
+
+- What is grayscale colouring? Colouring pages where the shading is already printed in grey. You lay colour on top and the printed shadows show through, so the picture looks three-dimensional with very little effort. It suits adults and older teens.
+- Which pencils for grayscale colouring? Soft, wax-based pencils (for example Prismacolor Premier) glide over the grey and blend; harder oil-based pencils (Faber-Castell Polychromos, Staedtler) keep a fine point for detail. A colourless blender pencil smooths the strokes so the page looks painted. Ordinary school pencils skate over the grey and look chalky.
+- Can I print the pages for free? Yes. Every book on the Halloween Shelf and Christmas Shelf has sample pages as PDFs that print on letter or A4 paper.
+- Who are the books for? Little ones from age 4 (bold and easy colouring, seek and find), kids 6 to 12 (mystery mosaics, Big Book of Why), adults (grayscale colouring, word search, poetry) and seniors (large print puzzles, chair tai chi, memory books).
+- Where do I buy? On Amazon; each book page on the sites links to its Amazon listing.
+
+## Optional
+
+- [Free Halloween colouring book](https://ainjection.github.io/halloween-books/free-halloween-coloring-book.html)
+- [Free Christmas colouring pages](https://ainjection.github.io/christmas-books/free-christmas-coloring-pages.html)
+- [YouTube: The Gentle Bookshop](https://www.youtube.com/@TheGentleBookshop)
+- [Full page list (sitemap)](https://ainjection.github.io/sitemap.xml)
+
+
+---
+
+# Best pencils for grayscale coloring (full text)
+
+Source: https://ainjection.github.io/halloween-books/best-pencils-for-grayscale-coloring.html
+
+## What a grayscale page is asking of your pencils
+
+ In an ordinary colouring book the picture is black outlines on white paper. You supply every bit of light and shade yourself. In a grayscale book the shading is already printed in grey: the dark folds of a witch's cloak, the glow on a pumpkin, the shadow under a gate. Your colour sits on top of that grey, and the grey shows through it. That is the whole trick. A light pass of orange over a shaded pumpkin looks round and lit, because the printed shadow does the work. 
+ It also means the pencil has to be transparent and soft enough to glide over the grey without scrubbing it out . A hard, waxy school pencil does the opposite: it skates over the dark areas, leaves white speckle in the paper grain, and the picture goes flat and chalky. That is the "it looks worse coloured in than it did in grey" problem, and it's the pencil, not the person. 
+
+## Soft wax or hard oil? Both have a job
+
+### Soft, wax-based (Prismacolor Premier)
+ Creamy, lays down a lot of colour in one pass, blends beautifully over printed shading. The pencil most grayscale colourists end up with. Downside: the points wear fast and snap if you press hard, so sharpen often and go gently. 
+ 
+### Harder, oil-based (Polychromos, Staedtler)
+ Keeps a point for ages, so fine detail like whiskers, lace and lettering stays crisp. Builds colour slowly in thin layers. Less dramatic blending, far less breakage. A good second set, or a first set if you like control more than glow. 
+ 
+ A set of 48 is plenty. Grayscale pages want a few colours used well, not 150 used once. 
+
+## The colourless blender: the one thing beginners skip
+
+ A colourless blender is a pencil with no pigment in it, just the binder. Rub it over an area you've coloured and it melts the strokes together, fills the white grain of the paper, and makes the surface look painted rather than scribbled. On grayscale pages it is close to magic, because it also softens the edge where your colour meets the printed shadow. If you buy one extra thing, buy this. 
+
+## Four small habits that matter more than brand
+
+ Light pressure first. Build colour in two or three thin layers instead of one heavy one; you can always add, you can't take away. Follow the grey. Press a little harder where the print is darker and ease off where it's lighter, and the form appears on its own. Keep a blunt point for shading and a sharp one for edges; a two-hole sharpener gives you both. Put a spare sheet under the page so the pencil doesn't pick up the texture of the page beneath. 
+
+## The five things worth buying
+
+ These are the picks we'd give a friend starting out. The links go to Amazon; as an Amazon Associate we earn from qualifying purchases, and that is what keeps the free printable pages free. 
+
+ The main set 
+### Prismacolor Premier Soft Core, 48 colours
+ The classic for grayscale. Soft and creamy, covers the printed shading in one gentle pass and blends like butter. Amazon: https://www.amazon.com/dp/B00006IEEV?tag=gentlebooksho-20 
+
+ The budget set 
+### Staedtler 146C, 72 colours
+ Harder lead that keeps its point, so lace, whiskers and lettering stay crisp. Less blending, far fewer broken tips. Amazon: https://www.amazon.com/dp/B07Q47C1WD?tag=gentlebooksho-20 
+
+ The secret weapon 
+### Prismacolor Colorless Blender pencils, 12
+ Melts your strokes together and fills the paper grain so the page looks painted. Twelve lasts a very long time. Amazon: https://www.amazon.com/dp/B00006RVSF?tag=gentlebooksho-20 
+
+ The small essential 
+### Prismacolor Premier two-hole sharpener
+ One hole gives a long drawing point, the other a blunt shading point. Soft pencils need a gentle, sharp blade; this is it. Amazon: https://www.amazon.com/dp/B004ZDL0K2?tag=gentlebooksho-20 
+
+ Keep them in order 
+### BTSKY 72-slot pencil case
+ A set you can see is a set you use. Holds 72 in colour order and zips shut, so it travels to the kitchen table and back. Amazon: https://www.amazon.com/dp/B01HCWOZTA?tag=gentlebooksho-20 
+
+ If money is no object 
+### Faber-Castell Polychromos, tin of 24
+ The artist's oil-based pencil: lightfast, break-proof, and a joy for fine detail. Dearer, so buy the 24 and add singles later. Amazon: https://www.amazon.com/dp/B0007OECK8?tag=gentlebooksho-20 
+
+ Prices move about; check the Amazon page. We have no arrangement with any of these brands; they're simply what works on our pages. 
+
+## Try the pencils on a real page first
+
+ Every grayscale book on the Halloween Shelf has free sample pages you can print at home. Colour one with whatever pencils you have, then one with a soft set, and you'll see the difference in five minutes. 
+ Print the free grayscale pages
