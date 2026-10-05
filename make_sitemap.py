@@ -2,7 +2,7 @@
 import glob, os, datetime
 B = 'https://ainjection.github.io/'
 urls = ['', 'gentle-bookshop/', 'halloween-books/', 'halloween-books/free-halloween-coloring-book.html', 'halloween-books/halloween-coloring-pages-printable.html',
-        'halloween-books/best-pencils-for-grayscale-coloring.html',
+        'halloween-books/best-pencils-for-grayscale-coloring.html', 'halloween-books/halloween-coloring-pages-for-adults.html', 'gentle-bookshop/about.html',
         'christmas-books/', 'christmas-books/free-christmas-coloring-pages.html', 'christmas-books/christmas-coloring-pages-printable.html', 'gentle-bookshop/practice/', 'curious-kids/', 'janice-kingsley/', 'ai-video-portfolio/']
 urls += ['gentle-bookshop/books/' + os.path.basename(p) for p in sorted(glob.glob('D:/gentle-bookshop-live/books/*.html'))]
 today = datetime.date.today().isoformat()
